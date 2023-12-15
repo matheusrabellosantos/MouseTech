@@ -35,10 +35,7 @@ body {
 
 .header a {
   text-decoration: none;
-<<<<<<< HEAD
   color: black;
-=======
->>>>>>> ddae17dab2150075588fd2ebce2d11cfb5136039
   color: white;
   font-weight: 700;
 }
@@ -57,10 +54,7 @@ body {
 }
 
 .titulo {
-<<<<<<< HEAD
-=======
   color: black;
->>>>>>> ddae17dab2150075588fd2ebce2d11cfb5136039
   color: white;
   width: fit-content;
   font-weight: 700;
@@ -74,14 +68,11 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
-<<<<<<< HEAD
   background-image: url('../assets/imgs/queijoBackground.jpeg');
-=======
   background: url('../assets/imgs/queijoBackground.jpeg') center no-repeat;
   background-size: cover ;
   max-width: 100%;
   /* background-image: url('../assets/imgs/download.jpeg'); */
->>>>>>> ddae17dab2150075588fd2ebce2d11cfb5136039
   background-size: cover;
 }
 
