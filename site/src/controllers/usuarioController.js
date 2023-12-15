@@ -31,7 +31,7 @@ function autenticar(req, res) {
                                         camaras: resultadoAquarios
                                     });
                                 } else {
-                                    res.status(204).json({ aquarios: [] });
+                                    res.status(204).json({ camaras: [] });
                                 }
                             })
                     } else if (resultadoAutenticar.length == 0) {
