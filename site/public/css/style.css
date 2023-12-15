@@ -178,7 +178,7 @@ button {
   width: 230px;
   position: fixed;
   border-radius: 4px;
-  border: #e6005a 3px solid;
+  border: #FFD900 3px solid;
   padding: 10px;
   margin-right: 10%;
 }
@@ -214,7 +214,7 @@ input {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #FFD900;
   width: 120px;
   align-self: center;
   margin-top: 5px;
@@ -254,7 +254,7 @@ input {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-right: 3px solid #32b9cd;
+  border-right: 3px solid #FFD900;
   background-color: #212124;
   /* border: 3px solid pink; */
 }
@@ -270,7 +270,7 @@ input {
 }
 
 .header-left h1 {
-  color: #32b9cd;
+  color: #FFD900;
 }
 
 .hello {
@@ -292,7 +292,7 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: #e6005a;
+  background-color: #FFD900;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -301,16 +301,17 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid #e6005a;
+  border: 3px solid #FFD900;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color: #e6005a;
+  color: #FFD900;
   padding: 0;
   margin: 0;
+  font-weight: 700;
 }
 
 .btn-nav h3,
@@ -323,7 +324,7 @@ input {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #32b9cd;
+  background-color: #FFD900;
   color: white;
   border-radius: 10px;
   text-align: center;
