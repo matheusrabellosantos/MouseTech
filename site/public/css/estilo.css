@@ -21,12 +21,9 @@ body {
 
 .header {
   height: var(--tamanho-header);
-<<<<<<< HEAD
   background-color: #FFD900;
-=======
   border-bottom: 2px solid #ffffff;
   background-color: #FFD900 !important;
->>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .header .container {
@@ -38,12 +35,8 @@ body {
 
 .header a {
   text-decoration: none;
-<<<<<<< HEAD
-  color: black;
-=======
   color: white;
   font-weight: 700;
->>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .agora {
@@ -60,11 +53,8 @@ body {
 }
 
 .titulo {
-<<<<<<< HEAD
   color: black;
-=======
   color: white;
->>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
   width: fit-content;
   font-weight: 700;
 
@@ -77,14 +67,11 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
-<<<<<<< HEAD
   background: url('../assets/imgs/queijoBackground.jpeg') center no-repeat;
   background-size: cover ;
   max-width: 100%;
-=======
-  background-image: url('../assets/imgs/download.jpeg');
+  /* background-image: url('../assets/imgs/download.jpeg'); */
   background-size: cover;
->>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .banner .container {
@@ -140,7 +127,9 @@ body {
 
 .login {
   height: var(--tamanho-login);
-  background-image: url('../assets/imgs/download.jpeg');
+  background: url('../assets/imgs/queijoBackground.jpeg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
   /* background-size: cover; */
 }
 
@@ -273,13 +262,10 @@ h2{
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
-<<<<<<< HEAD
   background-color: black;
   color: #fff;
-=======
   background-color: #000000;
   color: #FFD900;
->>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .footer h4 {
