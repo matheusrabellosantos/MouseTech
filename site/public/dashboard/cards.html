@@ -90,7 +90,8 @@
 </body>
 
 <script>
-
+    var camaras = sessionStorage.CAMARAS
+    console.log(camaras)
     function exibirAquarios() {
         JSON.parse(sessionStorage.CAMARAS).forEach(item => {
             document.getElementById("cardAquarios").innerHTML += `
