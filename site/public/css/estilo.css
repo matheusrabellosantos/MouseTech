@@ -21,18 +21,19 @@ body {
 
 .header {
   height: var(--tamanho-header);
-  border-bottom: 2px solid #32b9cd;
+  background-color: #FFD900;
 }
 
 .header .container {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  color: black;
 }
 
 .header a {
   text-decoration: none;
-  color: #e3b062;
+  color: black;
 }
 
 .agora {
@@ -49,31 +50,37 @@ body {
 }
 
 .titulo {
-  color: #32b9cd;
+  color: black;
   width: fit-content;
-  font-weight: 500;
+  font-weight: 700;
+
 }
 
 .header h1 {
   margin: 0;
+  font-weight: 700;
 }
 
 .banner {
   height: var(--tamanho-banner);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
-  background-size: cover;
+  background: url('../assets/imgs/queijoBackground.jpeg') center no-repeat;
+  background-size: cover ;
+  max-width: 100%;
 }
 
 .banner .container {
   justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
 .banner .container p {
   font-size: 36px;
   color: white;
-  width: 280px;
+  font-weight: 700;
+  text-align: center;
+  width: 60%
 }
 
 .banner .container span {
@@ -237,7 +244,7 @@ body {
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
-  background-color: #32b9cd;
+  background-color: black;
   color: #fff;
 }
 
