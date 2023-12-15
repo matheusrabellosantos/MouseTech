@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Barlow', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 :root {
@@ -21,7 +21,12 @@ body {
 
 .header {
   height: var(--tamanho-header);
+<<<<<<< HEAD
   background-color: #FFD900;
+=======
+  border-bottom: 2px solid #ffffff;
+  background-color: #FFD900 !important;
+>>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .header .container {
@@ -33,7 +38,12 @@ body {
 
 .header a {
   text-decoration: none;
+<<<<<<< HEAD
   color: black;
+=======
+  color: white;
+  font-weight: 700;
+>>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .agora {
@@ -46,11 +56,15 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  color: #e3b062;
+  color: #FFD900;
 }
 
 .titulo {
+<<<<<<< HEAD
   color: black;
+=======
+  color: white;
+>>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
   width: fit-content;
   font-weight: 700;
 
@@ -63,9 +77,14 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
+<<<<<<< HEAD
   background: url('../assets/imgs/queijoBackground.jpeg') center no-repeat;
   background-size: cover ;
   max-width: 100%;
+=======
+  background-image: url('../assets/imgs/download.jpeg');
+  background-size: cover;
+>>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .banner .container {
@@ -121,8 +140,8 @@ body {
 
 .login {
   height: var(--tamanho-login);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
-  background-size: cover;
+  background-image: url('../assets/imgs/download.jpeg');
+  /* background-size: cover; */
 }
 
 .login .container {
@@ -133,13 +152,14 @@ body {
 
 .card {
   width: 30%;
-  background-color: #e5e5e5;
+  background: linear-gradient(135deg, rgb(95, 95, 95), rgba(95, 95, 95, 0.4));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  color: palevioletred;
+  color: white;
   row-gap: 20px;
 }
 
@@ -154,6 +174,8 @@ body {
 .card h2 {
   margin: 0;
   font-size: 30px;
+  color: #ffffff;
+  margin-top: 8%;
 }
 
 .formulario {
@@ -169,17 +191,22 @@ body {
   font-weight: 800;
 }
 
+h2{
+  font-weight: 700;
+  color: black;
+}
+
 .formulario input {
-  border: 2px solid #32b9cd;
+  border: 2px solid #000000 ;
   height: 30px;
   text-align: center;
   border-radius: 10px;
 }
 
 .formulario select {
-  border: 2px solid #32b9cd;
+  border: 2px solid black;
   background-color: white;
-  color: gray;
+  color: rgb(72, 72, 72);
   height: 36px;
   text-align: center;
   border-radius: 10px;
@@ -196,10 +223,12 @@ body {
   font-family: "Barlow", sans-serif;
   border: 0;
   border-radius: 5px;
+  border:1px solid rgba(0, 0, 0, 0.18);
   font-weight: 600;
   font-size: 18px;
-  color: #fff;
-  background-color: #e6005a;
+  color: white;
+  background-color: #000000;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
   width: 120px;
   height: 30px;
   align-self: center;
@@ -231,7 +260,7 @@ body {
   width: 230px;
   position: fixed;
   border-radius: 4px;
-  border: #e6005a 3px solid;
+  border: #FFD900 3px solid;
   padding: 10px;
   margin-right: 10%;
 }
@@ -244,8 +273,13 @@ body {
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
+<<<<<<< HEAD
   background-color: black;
   color: #fff;
+=======
+  background-color: #000000;
+  color: #FFD900;
+>>>>>>> e006c5eb6bfc7c303822f4c8bb5b033e72aab34e
 }
 
 .footer h4 {

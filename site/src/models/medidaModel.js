@@ -11,7 +11,7 @@ function buscarUltimasMedidas(idAquario, limite_linhas) {
                         momento,
                         FORMAT(momento, 'HH:mm:ss') as momento_grafico
                     from medida
-                    where fk_aquario = ${idAquario}
+                    where fk_camaraMaturacao = ${idAquario}
                     order by id desc`;
     } else if (process.env.AMBIENTE_PROCESSO == "desenvolvimento") {
         instrucaoSql = `select 
@@ -20,7 +20,7 @@ function buscarUltimasMedidas(idAquario, limite_linhas) {
                         momento,
                         DATE_FORMAT(momento,'%H:%i:%s') as momento_grafico
                     from medida
-                    where fk_aquario = ${idAquario}
+                    where fk_camaraMaturacao = ${idAquario}
                     order by id desc limit ${limite_linhas}`;
     } else {
         console.log("\nO AMBIENTE (produção OU desenvolvimento) NÃO FOI DEFINIDO EM app.js\n");
@@ -40,8 +40,8 @@ function buscarMedidasEmTempoReal(idAquario) {
         dht11_temperatura as temperatura, 
         dht11_umidade as umidade,  
                         CONVERT(varchar, momento, 108) as momento_grafico, 
-                        fk_aquario 
-                        from medida where fk_aquario = ${idAquario} 
+                        fk_camaraMaturcao 
+                        from medida where fk_camaraMaturacao = ${idAquario} 
                     order by id desc`;
 
     } else if (process.env.AMBIENTE_PROCESSO == "desenvolvimento") {
@@ -49,8 +49,8 @@ function buscarMedidasEmTempoReal(idAquario) {
         dht11_temperatura as temperatura, 
         dht11_umidade as umidade,
                         DATE_FORMAT(momento,'%H:%i:%s') as momento_grafico, 
-                        fk_aquario 
-                        from medida where fk_aquario = ${idAquario} 
+                        fk_camaraMaturacao 
+                        from medida where fk_M=cam = ${idAquario} 
                     order by id desc limit 1`;
     } else {
         console.log("\nO AMBIENTE (produção OU desenvolvimento) NÃO FOI DEFINIDO EM app.js\n");
