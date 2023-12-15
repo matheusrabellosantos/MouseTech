@@ -22,7 +22,6 @@ body {
 .header {
   height: var(--tamanho-header);
   background-color: #FFD900;
-  border-bottom: 2px solid #ffffff;
   background-color: #FFD900 !important;
 }
 
@@ -79,7 +78,7 @@ body {
 .banner .container {
   justify-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
   height: 100%;
 }
 
