@@ -8,7 +8,7 @@ comandos para mysql - banco local - ambiente de desenvolvimento
 
 CREATE DATABASE MouseTech;
 
-USE MauseTech;
+USE MouseTech;
 
 CREATE TABLE empresa (
 	id INT PRIMARY KEY AUTO_INCREMENT,
